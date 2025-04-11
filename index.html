@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppon</title>
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light fixed-top" style=" background-color: #28A745">
+            <div class="container-fluid" style="font-weight: 800;">
+                <a class="navbar-brand text-white roboto-500 " href="#">CUPPON</a>
+                <button class="navbar-toggler btn-close-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end roboto-300" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header  ">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cuppon</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hoteles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Comidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Especialistas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Implementos de casa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Experiencias</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Busca" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Que buscas</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <main class="container-fluid bg-gradient  .gap-0 min-vh-100 py-4 roboto-300">
+        <section class="container py-4">
+            <div class="g-3 row">
+                <div class="col col-lg-4 col-sm-6">
+                    <!-- card-1 -->
+                    <div class="card">
+                        <img src="./assets/images/cupon-1.jpg" class="card-img-top" alt="foto plumon" width="50px">
+                        <div class="card-body">
+                            <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                            <p class="card-text">
+                                Plumones Manolino
+                            </p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <small>9191 Avenida Vitacura, Chile</small>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$45.990 </small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$22.990</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="col col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./assets/images/cupon-2.jpg" class="card-img-top" alt="foto comida">
+                        <div class="card-body">
+                            <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                            <p class="card-text">V for Vegan</p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <small>777 Jesse Pinkman, Chile</small>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$30.990 </small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$12.990</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="col col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./assets/images/cupon-3.jpg" class="card-img-top" alt="foto dentista">
+                        <div class="card-body">
+                            <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza +
+                                fluoración</h5>
+                            <p class="card-text">Clínica Dental Quijada</p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <small>1342, Blanco Encalada, Chile</small>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$300.000 </small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$25.990</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="g-3 row">
+                <div class="col col-lg-4 col-sm-6">
+                    <!-- card-4 -->
+                    <div class="card">
+                        <img src="./assets/images/cupon-4.jpg" class="card-img-top" alt="foto comida" width="50px">
+                        <div class="card-body">
+                            <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                            <p class="card-text">
+                                Suricata almacen </p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <small>1071 Miguel Claro, Chile</small>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$4.200</small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$2.100</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-5 -->
+                <div class="col col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./assets/images/cupon-5.jpg" class="card-img-top" alt="foto tickets">
+                        <div class="card-body">
+                            <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                            <p class="card-text">Stukids Centro de Eventos</p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <small>133 El tranque, Chile</small>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$4.000 </small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$2.500</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-6 -->
+                <div class="col col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./assets/images/cupon-6.jpg" class="card-img-top" alt="foto atacama">
+                        <div class="card-body">
+                            <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                            <p class="card-text">D-Latam Travel</p>
+                            <hr>
+                            <div class="card-text text-end">
+                                <small class="text-muted">$80.200 </small>
+                                <small class="fw-bold" style="color: #28A745;font-size: large;">$44.10</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section style="background-color: #28A745;">
+            <div class="p-3 roboto-500">
+                <h4 class="text-center" style="color: white;">Recibe cupones en tu correo</h4>
+            </div>
+            <div class="form-floating mb-3 col-11 mx-auto roboto-300">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput" class="opacity-50">Nombre</label>
+            </div>
+            <div class="form-floating col-11 mx-auto roboto-300">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword" class="opacity-50">Correo Electrónico</label>
+            </div>
+
+            <div class="d-grid gap-2 col-1 mx-auto p-2 roboto-300">
+                <button class="btn btn-light " type="button">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="text-center p-2 roboto-500">
+            <h4 style="font-weight: 800; ">CUPPON</h4>
+            <small class="opacity-50 roboto-300">
+                © 2018 Cuppon Latam. Todos los derechos reservados.
+            </small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
